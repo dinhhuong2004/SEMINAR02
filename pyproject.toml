@@ -11,6 +11,8 @@ dependencies = [
     "langchain-deepseek>=1.1.1",
     "langfuse>=4.15.6",
     "langgraph>=1.2.12",
+    "python-dotenv>=1.0.1",
+    "openai>=1.58.0",
 ]
 
 [dependency-groups]
