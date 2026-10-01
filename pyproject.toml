@@ -1,0 +1,19 @@
+[project]
+name = "mas4se"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "jupyterlab>=4.6.4",
+    "langchain>=1.4.3",
+    "langchain-deepseek>=1.1.1",
+    "langfuse>=4.15.6",
+    "langgraph>=1.2.12",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.2",
+]
